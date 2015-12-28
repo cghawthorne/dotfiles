@@ -81,3 +81,6 @@ source ~/.vimrc.local
 " Swap ; and :  Convenient.
 nnoremap ; :
 nnoremap : ;
+
+" tabs display as 2 spaces for go
+au FileType go setl ts=4 sw=4 noet sts=4
