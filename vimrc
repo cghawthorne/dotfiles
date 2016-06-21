@@ -84,3 +84,6 @@ nnoremap : ;
 
 " tabs display as 2 spaces for go
 au FileType go setl ts=4 sw=4 noet sts=4
+
+" indent 2 spaces for python
+au FileType python setl sw=2 sts=2 et
