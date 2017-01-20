@@ -23,16 +23,13 @@ filetype plugin on
 filetype indent on
 syntax on
 
-" Use english for spellchecking
-if version >= 700
-    set spl=en spell
-    set spell
-endif
-
 if has("gui_running")
   " Remove Toolbar
   set guioptions-=T
   colorscheme murphy
+  " Use english for spellchecking
+  set spl=en spell
+  set spell
 endif
 
 " Cool tab completion stuff
