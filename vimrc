@@ -30,6 +30,7 @@ if has("gui_running")
   " Use english for spellchecking
   set spl=en spell
   set spell
+  set guifont=Monospace\ 9
 endif
 
 " Cool tab completion stuff
